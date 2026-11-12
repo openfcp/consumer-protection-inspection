@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#2B4EA6"/>
+  <!-- 盾牌：白色粗边，内部蓝色 -->
+  <path d="M256 62 L404 112 C404 112 412 250 388 316 C364 382 256 452 256 452 C256 452 148 382 124 316 C100 250 108 112 108 112 Z"
+        fill="#FFFFFF"/>
+  <path d="M256 96 L378 137 C378 137 385 248 365 302 C345 356 256 414 256 414 C256 414 167 356 147 302 C127 248 134 137 134 137 Z"
+        fill="#2B4EA6"/>
+  <!-- 左侧两条横杠 -->
+  <rect x="168" y="156" width="76" height="22" rx="11" fill="#FFFFFF"/>
+  <rect x="168" y="210" width="76" height="22" rx="11" fill="#FFFFFF"/>
+  <!-- 右侧两个对勾 -->
+  <path d="M268 170 L288 192 L330 146" fill="none" stroke="#FFFFFF" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M268 224 L288 246 L330 200" fill="none" stroke="#FFFFFF" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- 文字：消保检查（字号与位置已控制在盾牌内壁以内，不与白色边框重叠） -->
+  <text x="256" y="322" text-anchor="middle" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif" font-size="40" font-weight="600" fill="#FFFFFF">消保检查</text>
+</svg>
